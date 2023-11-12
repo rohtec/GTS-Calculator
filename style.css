@@ -19,7 +19,7 @@ body {
 }
 .parent-container {
   margin: auto;
-  height: 78vh;
+  height: 85vh;
   width: 55%;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ body {
 main {
   background-color: #fff5;
   border: 8px solid #000000;
-  height: 68vh;
+  height: 75vh;
   width: 100%;
   border-top-right-radius: 35px;
   border-bottom-left-radius: 35px;
@@ -111,7 +111,7 @@ input {
 select {
   padding: 15px 5px;
   border: 1px solid #e5e5e5;
-  font-size: 19px;
+  font-size: 14px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.6);
   border-bottom-right-radius: 5px;
