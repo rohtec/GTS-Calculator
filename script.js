@@ -72,15 +72,15 @@
                     document.body.style.backgroundImage = 'url("./images/proyerozoic eon.webp")'
 
                 } else if (selectedEra === "Paleozoic") {
-                    result.textContent = "The Paleozoic Era, spanning approximately 541 to 252 million years ago, witnessed remarkable evolutionary events, earning it the title of the 'Age of Ancient Life'. It encompasses the emergence of complex multicellular organisms, the colonization of land by plants and animals, and the evolution of diverse marine life. The Paleozoic Era concludes with the Permian-Triassic extinction event, a major biological crisis that paved the way for the Mesozoic Era. This dynamic period laid the foundation for the rich biodiversity seen in subsequent eras.";
+                    result.textContent = "The Paleozoic Era, spanning approximately 541 to 252 million years ago, witnessed remarkable evolutionary events, earning it the title of the 'Age of Ancient Life'. It encompasses the emergence of complex multicellular organisms, the colonization of land by plants and animals, and the evolution of diverse marine life. The Paleozoic Era concludes with the Permian-Triassic extinction event, a major biological crisis that paved the way for the Mesozoic Era.";
                     document.body.style.backgroundImage = 'url("./images/paleozoic.jpg")'
 
                 } else if (selectedEra === "Mesozoic") {
-                    result.textContent = "The Mesozoic Era, spanning approximately 180 million to 66 million years ago, is often referred to as the 'Age of Dinosaurs.'This era is characterized by the dominance and evolution of various dinosaur species. Divided into three periods – the Triassic, Jurassic, and Cretaceous – the Mesozoic witnessed significant geological and climatic changes. It marked the breakup of the supercontinent Pangaea, the rise of flowering plants, and the eventual mass extinction event that concluded the era, paving the way for the Cenozoic Era.";
+                    result.textContent = "The Mesozoic Era, spanning approximately 180 million to 66 million years ago, is often referred to as the 'Age of Dinosaurs.'This era is characterized by the dominance and evolution of various dinosaur species. Mesozoic witnessed significant geological and climatic changes. It marked the breakup of the supercontinent Pangaea, the rise of flowering plants, and the eventual mass extinction event that concluded the era.";
                     document.body.style.backgroundImage = 'url("./images/mesozoic.jpg")'
 
                 } else if (selectedEra === "Cambrian") {
-                    result.textContent = "The Cambrian Period, approximately 541 to 485 million years ago, is renowned as a pivotal era in Earth's history. It marked a profound explosion of life, often referred to as the 'Cambrian Explosion'. During this time, a wide array of complex, multicellular organisms emerged, including the first recognizable arthropods and chordates. The Cambrian Period laid the foundation for the diverse ecosystems that would evolve in the subsequent geological periods, shaping the trajectory of life on our planet.";
+                    result.textContent = "The Cambrian Period, approximately 541 to 485 million years ago, is renowned as a pivotal era in Earth's history. It marked a profound explosion of life. During this time, a wide array of complex, multicellular organisms emerged, including the first recognizable arthropods and chordates. The Cambrian Period laid the foundation for the diverse ecosystems that would evolve in the subsequent geological periods, shaping the trajectory of life on our planet.";
                     document.body.style.backgroundImage = 'url("./images/cambrian.jpg")'
 
                 } else if (selectedEra === "Ordovician") {
@@ -92,7 +92,7 @@
                     document.body.style.backgroundImage = 'url("./images/silurian1.jpg")'
 
                 } else if (selectedEra === "Devonian") {
-                    result.textContent = "The Devonian Period, spanning from approximately 419 to 359 million years ago, is often referred to as the 'Age of Fishes'. During this time, diverse fish species flourished and evolved, with the emergence of jawed and bony fish. The first amphibians appeared, marking the transition from aquatic to terrestrial life. The Devonian also witnessed the development of forests and the colonization of land by early plants. Notable events include the formation of expansive coral reefs and the evolution of complex ecosystems.";
+                    result.textContent = "The Devonian Period, spanning from approximately 419 to 359 million years ago, is often referred to as the 'Age of Fishes'. During this time, diverse fish species flourished and evolved, with the emergence of jawed and bony fish. The first amphibians appeared, marking the transition from aquatic to terrestrial life. The Devonian also witnessed the development of forests and the colonization of land by early plants.";
                     document.body.style.backgroundImage = 'url("./images/devonian.jpg")'
                 }
                 else if (selectedEra === "Mississippian") {
@@ -105,15 +105,15 @@
 
                 }
                 else if (selectedEra === "Permian") {
-                    result.textContent = "The Permian Period, lasting from approximately 299 to 251 million years ago, marked the end of the Paleozoic Era. It was a time of significant geological and biological events. The supercontinent Pangaea formed during the early Permian, bringing most landmasses together. The period saw the diversification of reptiles and the emergence of early mammals. However, it concluded with the largest mass extinction in Earth's history, wiping out around 96% of marine species and paving the way for the Mesozoic Era.";
+                    result.textContent = "The Permian Period, lasting from approximately 299 to 251 million years ago, marked the end of the Paleozoic Era. It was a time of significant geological and biological events. The supercontinent Pangaea formed during the early Permian, bringing most landmasses together. The period saw the diversification of reptiles and the emergence of early mammals. However, it concluded with the largest mass extinction in Earth's history, wiping out around 96% of marine species.";
                     document.body.style.backgroundImage = 'url("./images/permian.jpg")'
                 }
                 else if (selectedEra === "Triassic") {
-                    result.textContent = "The Triassic Period, spanning approximately 252 to 201 million years ago, followed the devastating Permian-Triassic extinction event. During this era, Earth saw the emergence of the first dinosaurs, the evolution of early mammals, and the formation of the supercontinent Pangaea. The Triassic was marked by diverse ecosystems, including vast deserts and lush tropical forests. This period laid the groundwork for the evolutionary developments that would shape the subsequent Jurassic and Cretaceous periods.";
+                    result.textContent = "The Triassic Period, spanning approximately 252 to 201 million years ago, followed the devastating Permian-Triassic extinction event.Marked by emergence of the first dinosaurs, the evolution of early mammals, and the formation of the supercontinent Pangaea. The Triassic was marked by diverse ecosystems, including vast deserts and lush tropical forests. This period laid the groundwork for the evolutionary developments that would shape the subsequent Jurassic and Cretaceous periods.";
                     document.body.style.backgroundImage = 'url("./images/triassic2.jpg")'
                 }
                 else if (selectedEra === "Jurassic") {
-                    result.textContent = "The Jurassic Period, occurring approximately 201 to 145 million years ago, was a pivotal chapter in Earth's history. Known for the dominance of dinosaurs, this era witnessed the evolution of iconic species like the mighty Tyrannosaurus rex and the gentle Brachiosaurus. The supercontinent Pangaea began to break apart, forming the early outlines of today's continents. The Jurassic seas teemed with diverse marine life, including ichthyosaurs and plesiosaurs. It was a time of ecological innovation and the flourishing of various plant and animal species, leaving an indelible mark on the planet's evolutionary timeline.";
+                    result.textContent = "The Jurassic Period, occurring approximately 201 to 145 million years ago, was a pivotal chapter in Earth's history. Known for the dominance of dinosaurs, this era witnessed the evolution of iconic species like the mighty Tyrannosaurus rex and the gentle Brachiosaurus. The supercontinent Pangaea began to break apart, forming the early outlines of today's continents. The Jurassic seas teemed with diverse marine life, including ichthyosaurs and plesiosaurs.";
                     document.body.style.backgroundImage = 'url("./images/jurassic.jpg")'
                 }
                 else if (selectedEra === "Cretaceous") {
@@ -126,7 +126,7 @@
                     document.body.style.backgroundImage = 'url("./images/cenozoic.jpg")'
                 }
                 else if (selectedEra === "Paleogene") {
-                    result.textContent = "The Paleogene period, lasting from approximately 66 to 23 million years ago, follows the extinction event that marked the end of the Mesozoic Era. It's characterized by the diversification of mammals, the emergence of modern birds, and the development of diverse plant life. The climate transitioned from warm to cooler conditions, and significant geological events, such as the formation of the Himalayas, occurred during this period. The Paleogene sets the stage for the evolution of ecosystems leading into the Neogene period.";
+                    result.textContent = "The Paleogene period, lasting from approximately 66 to 23 million years ago, follows the extinction event that marked the end of the Mesozoic Era. It's characterized by the diversification of mammals, the emergence of modern birds, and the development of diverse plant life. The climate transitioned from warm to cooler conditions, and significant geological events, such as the formation of the Himalayas, occurred during this period.";
                     document.body.style.backgroundImage = 'url("./images/paleogene1.jpg")'
                 }
                 else if (selectedEra === "Neogene") {
@@ -138,7 +138,7 @@
                     document.body.style.backgroundImage = 'url("./images/quartenary2.jpg")'
                 }
                 else if (selectedEra === "Paleocene") {
-                    result.textContent = "The Paleocene Epoch, lasting from approximately 66 to 56 million years ago, immediately followed the mass extinction event that marked the end of the Cretaceous Period. During the Paleocene, Earth witnessed the recovery and diversification of life. Mammals thrived and diversified, taking advantage of the ecological niches left vacant by the extinction of dinosaurs. The climate was relatively warm, and the continents continued to drift into positions resembling their current arrangement. The Paleocene is a crucial period in Earth's history as it sets the stage for the subsequent epochs, leading to the development of modern ecosystems.";
+                    result.textContent = "The Paleocene Epoch, lasting from approximately 66 to 56 million years ago, immediately followed the mass extinction event that marked the end of the Cretaceous Period. During the Paleocene, Earth witnessed the recovery and diversification of life. Mammals thrived and diversified, taking advantage of the ecological niches left vacant by the extinction of dinosaurs. The climate was relatively warm, and the continents continued to drift into positions resembling their current arrangement.";
                     document.body.style.backgroundImage = 'url("./images/paleocene.jpg")'
                 }
                 else if (selectedEra === "Eocene") {
