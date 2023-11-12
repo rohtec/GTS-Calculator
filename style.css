@@ -28,7 +28,7 @@ body {
   font-family: Poppins;
   color: #000000;
   text-shadow: 4px #e5e5e5;
-  padding-block-start: 25px;
+  padding-block-start: 20px;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
@@ -217,11 +217,11 @@ footer {
     font-size: 25px;
   }
   .cont1 {
-    height: 50%;
+    height: 55%;
     border-bottom-left-radius: 0px;
   }
   .cont2 {
-    height: 50%;
+    height: 45%;
     width: fit-content;
     border-top-right-radius: 0px;
   }
@@ -245,16 +245,19 @@ footer {
     font-size: 20px;
     font-weight: 700;
     background-color: #192844;
+    
   }
 
   h1 {
     font-family: Poppins;
     color: #000;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
-
+  label {
+    font-size: 16px;
+  }
   #targetUnit {
     width: 100%;
   }
@@ -285,7 +288,10 @@ footer {
     padding-block-start: 20px;
     animation-name: slide;
   }
-
+footer {
+  height: 4rem;
+}
+  
   @keyframes slide {
     from {
       margin-block-start: -10%;
