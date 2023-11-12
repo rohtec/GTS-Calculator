@@ -19,7 +19,7 @@ body {
 }
 .parent-container {
   margin: auto;
-  height: 85vh;
+  height: 90vh;
   width: 55%;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ body {
   font-family: Poppins;
   color: #000000;
   text-shadow: 4px #e5e5e5;
-  padding-top: 5px;
+  padding-block-start: 25px;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
@@ -50,7 +50,7 @@ body {
 main {
   background-color: #fff5;
   border: 8px solid #000000;
-  height: 75vh;
+  height: 79vh;
   width: 100%;
   border-top-right-radius: 35px;
   border-bottom-left-radius: 35px;
@@ -217,11 +217,12 @@ footer {
     font-size: 25px;
   }
   .cont1 {
-    height: 65%;
+    height: 50%;
     border-bottom-left-radius: 0px;
   }
   .cont2 {
-    height: 35%;
+    height: 50%;
+    width: fit-content;
     border-top-right-radius: 0px;
   }
 
