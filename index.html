@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
+    <title>Geological Time Scale Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Fraunces:wght@700;900&amp;display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body id="imageContainer">
+    <div class="parent-container">
+        <span id="header">MY GTS CALCULATOR</span>
+        <main aria-label="container">
+            <section aria-label="input-section" class="cont1">
+                <div class="input-container">
+                    <h1>Enter Eon/Era/Period/Epoch/Age</h1>
+                    <label for="inputType">Select Input Type:</label>
+                    <select id="inputType">
+                        <option value="era">Eon/Era/Period/Epoch/Age</option>
+                        <option value="years">Years (in numbers)</option>
+                    </select>
+                    <label for="era">Select Units:</label>
+                    <div class="input-group" id="eraInput">
+                        <select tabindex="1" id="era">
+                            <option value="0" selected>Select Geologic Unit</option>
+                            <option value="Hadean">Hadean Eon</option>
+                            <option value="Archean">Archean Eon</option>
+                            <option value="Proterozoic">Proterozoic Eon</option>
+                            <option value="Phanerozoic">Phanerozoic Eon</option>
+                            <option value="Paleozoic">Paleozoic Era</option>
+                            <option value="Mesozoic">Mesozoic Era</option>
+                            <option value="Cenozoic">Cenozoic Era</option>
+                            <option value="Cambrian">Cambrian Period</option>
+                            <option value="Ordovician">Ordovician Period</option>
+                            <option value="Silurian">Silurian Period</option>
+                            <option value="Devonian">Devonian Period</option>
+                            <option value="Mississippian">Mississippian Period</option>
+                            <option value="Pennsylvanian">Pennsylvanian Period</option>
+                            <option value="Permian">Permian Period</option>
+                            <option value="Triassic">Triassic Period</option>
+                            <option value="Jurassic">Jurassic Period</option>
+                            <option value="Cretaceous">Cretaceous Period</option>
+                            <option value="Paleogene">Paleogene Period</option>
+                            <option value="Neogene">Neogene Period</option>
+                            <option value="Quaternary">Quaternary Period</option>
+                            <option value="Paleocene">Paleocene Epoch</option>
+                            <option value="Eocene">Eocene Epoch</option>
+                            <option value="Oligocene">Oligocene Epoch</option>
+                            <option value="Miocene">Miocene Epoch</option>
+                            <option value="Pliocene">Pliocene Epoch</option>
+                            <option value="Pleistocene">Pleistocene Epoch</option>
+                            <option value="Holocene">Holocene Epoch</option>
+                            <optgroup label="Holocene(Age)">
+                                <option value="Greenlandian">Greenlandian Age</option>
+                                <option value="Northgrippian">Northgrippian Age</option>
+                                <option value="Meghalayan">Meghalayan Age</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <label for="years">Input Numbers (in Numbers):</label>
+                    <div class="input-group" id="yearsInput">
+                        <input tabindex="0" type="number" class="form-control" id="years" name="geonumberInput"
+                            placeholder="Enter Degree" value="450000000" />
+                    </div>
+                    <div class="submit-button">
+                        <button id="calculate" class="convertBtn" tabindex="3"> Convert <span>&rightarrow;</span></button>
+                    </div>
+                </div>
+            </section>
+            <section aria-label="result-section" class="cont2">
+                <div class="resultValueSection">
+                    <div id="convertedDegree">
+                        <div id="result">The Phanerozoic Eon is the most recent eon in the geological time scale and
+                            covers approximately 541 million years to the present day.Here are some key points about the
+                            Phanerozoic Eon which are;
+                            Life Explosion,Three Major Eras, Major Extinctions, Continental Drift, Evolution of Mammals
+                            and Birds, Human History, Ongoing Era.
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            &copy;2023 Designed by Esther Matthew</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
